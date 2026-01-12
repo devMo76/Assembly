@@ -1,0 +1,29 @@
+.keyboard-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 4px;
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+.key-button{
+    width: 45px;
+    height: 45px;
+    background-color: #FCBA29;
+    border: none;
+    border-radius: 4px;
+    border-color: white;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.key-button:hover {
+    background-color: #e5a520;
+    transform: scale(1.05);
+}
+
+.key-button:active {
+    transform: scale(0.95);
+}

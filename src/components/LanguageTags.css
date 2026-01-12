@@ -1,0 +1,59 @@
+.language-tags-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1px;
+    flex-wrap: wrap;
+    max-width: 500px;
+    margin-top: 120px;
+}
+
+.language-tag {
+    padding: 8px 16px;
+    border-radius: 4px;
+    color: white;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.html {
+    background-color: #E2680F; /* Orange */
+}
+
+.css {
+    background-color: #328AF1; /* Blue */
+}
+
+.javascript {
+    background-color: #F4EB13;
+    color: #000;
+
+}
+
+.react {
+    background-color: #2ED3E9;
+    color: #000;
+}
+
+.typescript {
+    background-color: #298EC6;
+}
+
+.nodejs {
+    background-color: #599137;
+}
+
+.python {
+    background-color: #FFD742;
+    color: black;
+}
+
+.ruby {
+    background-color: #D02B2B;
+}
+
+.assembly {
+    background-color: #2D519F;
+}
+

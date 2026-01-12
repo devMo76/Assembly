@@ -1,0 +1,19 @@
+.header-title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 0px;
+    font-weight: normal;
+    margin-top: 70px;
+}
+
+.header-title h2{
+    color: white;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+.header-title span{
+    color: #8E8E8E;
+}
