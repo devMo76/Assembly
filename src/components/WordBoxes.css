@@ -17,3 +17,60 @@
     font-size: 28px;
     color: white;
 }
+.game-status-banner {
+    margin-top: 24px;
+    margin-bottom: 16px;
+    padding: 12px 24px;
+    border-radius: 6px;
+    text-align: center;
+    font-family: inherit;
+    display: inline-block;
+  }
+  
+  .game-status-banner--win {
+    background-color: #16a34a; /* green */
+    color: #f9fafb;
+  }
+  
+  .game-status-banner--lose {
+    background-color: #dc2626; /* red */
+    color: #f9fafb;
+  }
+  
+  .game-status-title {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 4px;
+  }
+  
+  .game-status-subtitle {
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .new-game-button {
+    margin: 24px auto 0;           /* center horizontally under keyboard */
+    padding: 14px 80px;            /* wide button */
+    border-radius: 6px;
+    border: 2px solid #f9f4da;     /* light/off‑white border */
+    background-color: #00b7ff;     /* cyan fill */
+    color: #0b1120;                /* dark text */
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+    display: block;
+    box-shadow: 0 4px 0 rgba(0, 0, 0, 0.4);  /* slight depth */
+    transition: background-color 0.15s ease, transform 0.15s ease,
+                box-shadow 0.15s ease;
+  }
+  
+  .new-game-button:hover {
+    background-color: #12c8ff;
+    transform: translateY(-1px);
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.45);
+  }
+  
+  .new-game-button:active {
+    transform: translateY(1px);
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.4);
+  }
